@@ -1,0 +1,92 @@
+
+
+import math as mt
+def generategraycode(n):
+    if(n<=0):
+        print("enter proper value of no.of loads")
+        return
+    arr=list()
+    arr.append("0")
+    arr.append("1")
+    i=2
+    j=0
+    while(True):
+        if i>=1 << n:
+            break
+        for j in range(i-1,-1,-1):
+            arr.append(arr[j])
+        for j in range(i):
+            arr[j]="0"+arr[j]
+        for j in range(i,2*i):
+            arr[j]="1"+arr[j]
+        i=i<<1
+    for i in range(len(arr)):
+##        print(arr[i])
+        l.append((arr[i]))
+##    print(l)
+    for i in range(0,len(l)):
+        for j in range(0,len(l[i])):
+            l1.append(int(l[i][j]))
+
+q1=[60,40,50]
+n=len(q1)
+pt=int(input())
+l=[]
+l1=[]
+sum=0
+r=0
+##generategraycode(n)
+#print(l1)
+#gray code completed and stored in a list named l1
+if pt<min(q1):
+    q1.append(pt)
+    print('list updated new device found initially',q1)
+#pt=int(input(())
+n=len(q1)
+#print(n)
+generategraycode(n)
+#print(l1)
+for i in range(0,len(q1)):
+    sum+=q1[i]
+#print(sum)
+#print(l1)
+    
+z=[]
+sum1=0
+for i in range(0,n):
+    for j in range(0+i,len(l1),n):
+        #print(q1[i])#print(i)
+        p=q1[i]*l1[j]
+        #print(j)#print(p,end=" ")
+        z.append(p)
+#print(z)
+q2=[]
+for i in range(0,2**n):
+    sum1=0
+    for k in range(0+i,len(z),2**n):
+        sum1+=z[k]
+    q2.append(sum1)
+#print(q2)
+for i in range(0,len(q2)):
+    if pt>sum:
+        a0=pt-sum
+        print("new device found",pt-sum)
+        if a0 in q1:
+            print("this new device already exists in data base",a0)
+            break
+        else:
+            q1.append(a0)
+            break
+print (q1)
+
+y=['light','fan','tube']
+if len(q1)==len(y):
+    import matplotlib.pyplot as plt
+    plt.scatter(y,q1)
+    plt.show()
+else:
+    y.append('new')
+    import matplotlib.pyplot as plt
+    plt.scatter(y,q1)
+    plt.show()
+
