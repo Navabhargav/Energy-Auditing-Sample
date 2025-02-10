@@ -1,6 +1,6 @@
 # ⚡ **Energy Auditing Through Machine Learning**  
 
-[![Python](https://img.shields.io/badge/Python-3.9-blue.svg)](https://www.python.org/) [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-green)](https://scikit-learn.org/) [![Energy Efficiency](https://img.shields.io/badge/Energy%20Efficiency-Audit-orange)]  
+[![Python](https://img.shields.io/badge/Python-3.9-blue.svg)](https://www.python.org/) [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-green)](https://scikit-learn.org/) ![Energy Efficiency](https://img.shields.io/badge/Energy%20Efficiency-Audit-orange)]  
 
 
 ## 📌 **Project Overview**  
