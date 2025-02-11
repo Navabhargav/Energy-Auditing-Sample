@@ -82,33 +82,6 @@ We employ a **multi-step ML approach** to analyze and audit energy usage:
 - **Reducing idle power consumption** of **industrial equipment** by **10%** can **save thousands of kWh annually**.  
 - **Smart scheduling** of **energy-intensive appliances** can result in **significant cost savings**.  
 
----
-
-## 💻 **Installation & Usage**  
-### **1️⃣ Clone the Repository**  
-```sh
-git clone https://github.com/Navabhargav/Energy-Auditing-ML.git
-cd Energy-Auditing-ML
-```  
-
-### **2️⃣ Install Required Dependencies**  
-```sh
-pip install -r requirements.txt
-```  
-
-### **3️⃣ Run Jupyter Notebook for Analysis**  
-```sh
-jupyter notebook
-```
-Open `Energy_Audit_Analysis.ipynb` and execute the steps.  
-
-### **4️⃣ Deploy Model as API (Flask Server)**  
-```sh
-python app.py
-```
-API will be available at: **http://127.0.0.1:5000/predict**
-
----
 
 ## 🖥️ **Technologies Used**
 | **Category**         | **Technologies** |
